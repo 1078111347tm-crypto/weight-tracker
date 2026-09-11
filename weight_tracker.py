@@ -13,7 +13,7 @@ st.caption("第 4 课作品：输入体重，自动保存，画出趋势图，�
 
 CSV_FILE = "weight.csv"
 TARGET_FILE = "target_weight.txt"
-GITHUB_REPO = "107811347tm-crypto/weight-tracker"
+GITHUB_REPO = "1078111347tm-crypto/weight-tracker"
 API_BASE = f"https://api.github.com/repos/{GITHUB_REPO}/contents"
 
 # 判断运行环境：st.secrets 里有 github_token 就走 GitHub API（云端），否则回退到本地文件
